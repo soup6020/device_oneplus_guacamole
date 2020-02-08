@@ -13,7 +13,6 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 
 
 # Inherit some common statix stuff.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
 
